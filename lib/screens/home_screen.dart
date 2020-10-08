@@ -1,3 +1,4 @@
+import 'package:designs/views/lookup_customer_page.dart';
 import 'package:flutter/material.dart';
 import 'package:designs/views/clock_page.dart';
 
@@ -22,7 +23,10 @@ class HomeScreen extends StatelessWidget {
               color: Colors.blue,
             ),
             FlatButton(
-              onPressed: () {},
+              onPressed: () {
+                Navigator.push(context,
+                  MaterialPageRoute(builder: (context) => LookUpPage()),);
+              },
               child:
               Text("Lookup Customer"),
               color: Colors.blue,
