@@ -1,4 +1,5 @@
 import 'package:designs/views/cash_drawer_page.dart';
+import 'package:designs/views/deposits.dart';
 import 'package:designs/views/lookup_customer_page.dart';
 import '';import 'package:flutter/material.dart';
 import 'package:designs/views/clock_page.dart';
@@ -43,8 +44,8 @@ class HomeScreen extends StatelessWidget {
             ),
             FlatButton(
               onPressed: () {
-                // Navigator.push(context,
-                //   MaterialPageRoute(builder: (context) => LookUpPage()),);
+                Navigator.push(context,
+                  MaterialPageRoute(builder: (context) => DepositsPage()),);
               },
               child:
               Text("Deposits"),
