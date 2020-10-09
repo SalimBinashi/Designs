@@ -19,6 +19,8 @@ class _DepositScreenState extends State<DepositScreen> {
             Icons.arrow_back,
             color: Colors.white,
           ),
+          onPressed: () => {Navigator.pop(context, false)},
+
         ),
         actions: [
           Padding(
