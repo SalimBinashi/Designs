@@ -24,6 +24,7 @@ dependencies:
   flutter:
     sdk: flutter
   intl: ^0.16.1
+  flappy_search_bar: ^1.7.2
 
 
 

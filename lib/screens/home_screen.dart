@@ -1,5 +1,6 @@
+import 'package:designs/views/cash_drawer_page.dart';
 import 'package:designs/views/lookup_customer_page.dart';
-import 'package:flutter/material.dart';
+import '';import 'package:flutter/material.dart';
 import 'package:designs/views/clock_page.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -29,6 +30,24 @@ class HomeScreen extends StatelessWidget {
               },
               child:
               Text("Lookup Customer"),
+              color: Colors.blue,
+            ),
+            FlatButton(
+              onPressed: () {
+                Navigator.push(context,
+                  MaterialPageRoute(builder: (context) => CashDrawerPage()),);
+              },
+              child:
+              Text("Cash Drawers"),
+              color: Colors.blue,
+            ),
+            FlatButton(
+              onPressed: () {
+                // Navigator.push(context,
+                //   MaterialPageRoute(builder: (context) => LookUpPage()),);
+              },
+              child:
+              Text("Deposits"),
               color: Colors.blue,
             ),
           ],

@@ -1,5 +1,6 @@
-import 'package:designs/screens/look_up_screen.dart';
 import 'package:flutter/material.dart';
+import 'package:designs/screens/look_up_screen.dart';
+
 class LookUpPage extends StatefulWidget {
   @override
   _LookUpPageState createState() => _LookUpPageState();
